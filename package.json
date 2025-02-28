@@ -1,0 +1,20 @@
+{
+  "name": "playlist_app_autotests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
